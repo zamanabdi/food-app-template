@@ -1,0 +1,45 @@
+.food-comp-wrapper{
+    /* border: 1px solid purple; */
+    height: 2100px;
+    margin-top: 20px;
+    /* border-bottom: 1px solid gray; */
+}
+
+.food-heading{
+    /* border: 2px solid brown; */
+    height: 100px;
+    padding: 0px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.food-heading span {
+    line-height: 2;
+}
+
+.food-heading span h4{
+font-size: 18px;
+font-family: 'Roboto', sans-serif;
+font-weight: bold;
+}
+
+.food-heading span p{
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.food-card-wrapper{
+    /* border: 2px solid purple; */
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    /* padding: 10px; */
+    overflow-y: hidden;
+    gap:20px;
+    /* transform: 1s;
+    transform: translateY(-100vh); */
+    
+}
+
